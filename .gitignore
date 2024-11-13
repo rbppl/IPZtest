@@ -1,0 +1,5 @@
+.git/
+x64/
+IPZ.vcxproj
+IPZ.vcxproj.filters
+IPZ.vcxproj.user
