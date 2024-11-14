@@ -48,6 +48,8 @@ bool getNInput(int& n) {
     }
 }
 
+
+
 // Function to get valid step input ensuring step is in range and positive
 bool getStepInput(double a, double b, double& step) {
     while (true) {
@@ -137,7 +139,6 @@ int main() {
         double y = calculateY(x, n);
         std::cout << "For x = " << x << ", y = " << y << std::endl;
     }
-
     // Option to save the results
     std::string saveToFile;
     if (getSaveInput(saveToFile) && saveToFile == "yes") {
